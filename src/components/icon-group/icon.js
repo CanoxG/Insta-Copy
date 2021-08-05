@@ -1,7 +1,7 @@
 import React from "react";
 import "./icon.css";
-import Avatar from '../avatar/avatar'
-
+import Avatar from '../../IMG_0031.JPG'
+import '../avatar/avatar.css'
 
 export default function Icon() {
     return (
@@ -30,7 +30,6 @@ export default function Icon() {
             <div className='icon'>
                 <img className='avatar' src={Avatar} alt='Profile Avatar' />
             </div>
-
         </div>
     );
 }
