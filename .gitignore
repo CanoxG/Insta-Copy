@@ -8,6 +8,7 @@
 # testing
 /coverage
 
+
 # production
 /build
 
@@ -17,6 +18,10 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.robots.txt
+.reportWebVitals.js
+.setupTests.js
+.yarn.lock
 
 npm-debug.log*
 yarn-debug.log*
