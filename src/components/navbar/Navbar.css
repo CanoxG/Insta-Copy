@@ -1,5 +1,9 @@
 .nav-bar {
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     justify-content: center;
     border-bottom: 1px solid rgb(211, 211, 211);
     

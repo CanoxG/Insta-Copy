@@ -1,7 +1,7 @@
 import React from "react";
 import "./icon.css";
 import Avatar from '../../IMG_0031.JPG'
-import '../avatar/avatar.css'
+import '../avatar/Avatar.css'
 
 export default function Icon() {
     return (

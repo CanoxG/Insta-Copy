@@ -1,14 +1,16 @@
-import React from 'react';
-import './App.css';
-import Navbar from './components/navbar/Navbar'
-import Post from './components/post/post'
+import React from "react";
+import "./App.css";
+import Navbar from "./components/navbar/Navbar";
+import Layout from "./components/layout/Layout";
+
 
 function App() {
   return (
     <>
       <Navbar />
-      <Post />
 
+      <Layout>
+      </Layout>
     </>
   );
 }
