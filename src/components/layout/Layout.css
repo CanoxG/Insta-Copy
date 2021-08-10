@@ -1,0 +1,9 @@
+.layout {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 935px;
+  width: 100%;
+}

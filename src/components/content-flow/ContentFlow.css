@@ -1,0 +1,16 @@
+.contentFlow {
+    display: flex;
+    padding-right: 293px;
+    position: relative;
+}
+.contents {
+     display: flex;
+     flex-direction: column;
+}
+
+.sideMenu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 290px;
+}
