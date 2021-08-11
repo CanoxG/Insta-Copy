@@ -9,8 +9,8 @@
 }
 
 .sideMenu {
-    position: absolute;
+    position:fixed;
     right: 0;
-    top: 0;
-    width: 290px;
+    top: 111px;
+    width: 369px;
 }
