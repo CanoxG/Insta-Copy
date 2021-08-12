@@ -8,9 +8,3 @@
      flex-direction: column;
 }
 
-.sideMenu {
-    position:fixed;
-    right: 0;
-    top: 111px;
-    width: 369px;
-}

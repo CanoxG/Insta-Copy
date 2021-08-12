@@ -6,9 +6,6 @@ export default function ContentFlow({ children }) {
         <div className="contentFlow">
             <div className="contents">
                 {children}
-                <div className='sideMenu'>
-                    side menu
-                </div>
             </div>
         </div>
     );
