@@ -5,11 +5,11 @@ import Avatar from "../avatar/Avatar";
 import Contentimg from "../content-img/Contentimg";
 import Comment from "../comments/Comment";
 
-export default function Content() {
+export default function Content({ size = 'sm' }) {
     return (
         <div className="content">
             <Header>
-                <Avatar />
+                <Avatar size={size} />
             </Header>
             <Contentimg />
             <Comment />

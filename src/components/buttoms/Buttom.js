@@ -1,13 +1,12 @@
 import React from 'react';
 import './Buttom.css';
-import Ellipsis from '../icons/Ellipsis'
 
 
-export default function Button() {
+export default function Button({ color, children }) {
 
     return (
-        <button className='btn'>
-            <Ellipsis />
+        <button className={`btn ${color}`}>
+            {children}
         </button>
     )
 }
