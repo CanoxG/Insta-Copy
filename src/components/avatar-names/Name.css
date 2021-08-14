@@ -9,3 +9,8 @@
 .baseline {
     align-items: baseline;
 }
+
+.cardText {
+    margin-top: 10px;
+    margin-left: 10px;
+}

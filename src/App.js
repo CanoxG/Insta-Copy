@@ -22,8 +22,8 @@ function App() {
           </AvatarList>
           <Content />
           <Content />
-          <Sidemenu />
         </ContentFlow>
+        <Sidemenu />
       </Layout >
     </>
   );

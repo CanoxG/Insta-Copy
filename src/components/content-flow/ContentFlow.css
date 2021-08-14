@@ -1,8 +1,3 @@
-.contentFlow {
-    display: flex;
-    padding-right: 293px;
-    position: relative;
-}
 .contents {
      display: flex;
      flex-direction: column;
