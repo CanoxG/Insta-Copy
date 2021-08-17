@@ -8,9 +8,6 @@
 # testing
 /coverage
 
-# user spesicif stuff
-.idea/workspace.xml
-.idea/jsLibraryMappings.xml
 
 # production
 /build
