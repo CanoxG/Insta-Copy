@@ -1,10 +1,10 @@
 import React from 'react';
-import './CommnetLine.css';
+import './CommentLine.css';
 
-export default function CommnetLine({ children }) {
+export default function CommenttLine({ children }) {
 
     return (
-        <div className='comentLine'>
+        <div className='commentLine'>
             {children}
         </div>
     )
