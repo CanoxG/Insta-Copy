@@ -8,23 +8,41 @@ import AvatarProfile from "./components/avatar-profile/AvatarProfile";
 import Content from "./components/content/Content";
 import Sidemenu from "./components/sidemenu/Sidemenu";
 
-
 function App() {
+  const [avatarState, setAvatarState] = React.useState([]);
+  const nameRef = React.useRef("");
+
+  React.useEffect(() => {
+    setTimeout(() => {
+      setAvatarState([
+        { name: "tan", src: "https://lwlies.com/wp-content/uploads/2017/04/avatar-2009.jpg" },
+        { name: "can", src: "https://images4.alphacoders.com/273/273904.jpg" },
+      ]);
+    }, 2000);
+  }, []);
+
+  const onSubmit = () => {
+    setAvatarState([...avatarState, { name: nameRef.current.value }]);
+    nameRef.current.value = "";
+  };
+
   return (
     <>
       <Navbar />
       <Layout>
         <ContentFlow>
           <AvatarList>
-            {Array.from({ length: 20 }, (_, i) => (
-              <AvatarProfile key={i} />
+            {avatarState.map(({ name, src }, i) => (
+              <AvatarProfile name={name} src={src} key={i} />
             ))}
           </AvatarList>
+          <input type="text" ref={nameRef} />
+          <button onClick={onSubmit}>add</button>
           <Content />
           <Content />
         </ContentFlow>
         <Sidemenu />
-      </Layout >
+      </Layout>
     </>
   );
 }
