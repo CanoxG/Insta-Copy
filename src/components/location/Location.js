@@ -1,11 +1,11 @@
 import React from 'react';
 import './Location.css';
 
-export default function Location() {
+export default function Location({ location }) {
 
     return (
         <div className='location'>
-            Istanbul, Turkey
+            {location}
         </div>
     )
 }

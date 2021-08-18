@@ -26,6 +26,17 @@ function App() {
     nameRef.current.value = "";
   };
 
+  const [contentState, setContentState] = React.useState([]);
+
+  React.useEffect(() => {
+    setContentState( [
+      { name: 'cguven', location: 'Ankara, Turkey', src: 'https://images7.alphacoders.com/977/977613.jpg' },
+      { name: 'cguven', location: 'Ankara, Turkey', src: 'https://images2.alphacoders.com/573/573835.jpg' },
+      { name: 'cguven', location: 'Space, Somewhere', src: 'https://images4.alphacoders.com/742/742530.png' },
+      { name: 'hsolo', location: 'Somewhere, Space', src: 'https://images7.alphacoders.com/630/630579.jpg' }
+    ])
+  })
+
   return (
     <>
       <Navbar />
@@ -38,8 +49,9 @@ function App() {
           </AvatarList>
           <input type="text" ref={nameRef} />
           <button onClick={onSubmit}>add</button>
-          <Content />
-          <Content />
+          {contentState.map(({name, src, location }, i) =>
+          <Content  name={name} src={src} location={location}  key={i}/>
+          )}
         </ContentFlow>
         <Sidemenu />
       </Layout>

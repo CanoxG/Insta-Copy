@@ -5,16 +5,16 @@ import Location from '../location/Location';
 import Buttom from '../buttoms/Buttom'
 import Ellipsis from '../icons/Ellipsis'
 
-export default function Header({ align = 'baseline', children }) {
+export default function Header({ align = 'baseline', children, name, location }) {
 
     return (
         <div className='contentHeader'>
             {children}
             <div className='textBar'>
                 <AvatarName align={align}>
-                    zlemakkus
+                    {name}
                 </AvatarName>
-                <Location />
+                <Location location={location} />
                 <Buttom>
                     <Ellipsis />
                 </Buttom>

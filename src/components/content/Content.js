@@ -4,15 +4,14 @@ import Header from "../content-header/Header";
 import Avatar from "../avatar/Avatar";
 import Contentimg from "../content-img/Contentimg";
 import Comment from "../comments/Comment";
-import AvatarProfile from '../../IMG_0031.JPG';
 
-export default function Content({ size = 'sm', src = AvatarProfile }) {
+export default function Content({ size = 'sm', src , name, location }) {
     return (
         <div className="content">
-            <Header>
+            <Header name={name} location={location} >
                 <Avatar size={size} src={src} />
             </Header>
-            <Contentimg />
+            <Contentimg src={src}/>
             <Comment />
         </div>
     );
