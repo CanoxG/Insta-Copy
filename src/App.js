@@ -5,7 +5,7 @@ import Layout from "./components/layout/Layout";
 import ContentFlow from "./components/content-flow/ContentFlow";
 import { HorizontalAvatar } from "./components/horizontal-avatar-list/HorizontalAvatar";
 import Sidemenu from "./components/sidemenu/Sidemenu";
-import { CenterPostList } from "./components/center-post-list/Centnpx erPostList";
+import { CenterPostList } from "./components/center-post-list/CenterPostList";
 
 function App() {
 
