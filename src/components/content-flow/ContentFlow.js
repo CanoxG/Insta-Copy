@@ -6,5 +6,5 @@ export default function ContentFlow({ children }) {
         <div className="contents">
             {children}
         </div>
-    );
+    )
 }
