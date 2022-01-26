@@ -1,4 +1,3 @@
-import React from 'react';
 import './Suggestion.css';
 
 export default function Suggestion({ style = 'suggestionsText', children, position }) {

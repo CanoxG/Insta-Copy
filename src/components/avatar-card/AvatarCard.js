@@ -1,4 +1,3 @@
-import React from 'react';
 import './AvatarCard.css';
 import Avatar from '../avatar/Avatar';
 import AvatarName from '../avatar-names/Name';

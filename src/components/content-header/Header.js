@@ -1,4 +1,3 @@
-import React from 'react';
 import './Header.css';
 import AvatarName from '../avatar-names/Name'
 import Location from '../location/Location';

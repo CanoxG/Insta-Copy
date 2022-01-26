@@ -1,11 +1,10 @@
-import React from "react";
 import "./Sidemenu.css";
 import AvatarCard from "../avatar-card/AvatarCard";
 import Button from "../buttoms/Buttom";
 import Suggestion from "../suggestions/Suggestion";
 import Scard from "../suggestion-card/Scard";
 
-export default function Sidemenu({
+export default function SideMenu({
   style = "suggestionsText",
   position = "textAlign",
   color = "blue",

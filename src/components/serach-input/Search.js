@@ -1,4 +1,3 @@
-import React from "react";
 import "./Searchbar.css";
 
 export default function SearchInput() {
@@ -7,4 +6,4 @@ export default function SearchInput() {
             <input className="search" type="search" placeholder='🔍 Search' />
         </div>
     );
-};
+}

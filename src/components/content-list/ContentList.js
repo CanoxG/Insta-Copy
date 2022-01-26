@@ -1,4 +1,3 @@
-import React from 'react';
 import './ContentList.css';
 
 const ContentList = function ({ children }) {

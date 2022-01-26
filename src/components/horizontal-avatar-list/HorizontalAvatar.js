@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useRef, useEffect, useState } from "react";
 import { fetchWrapper } from "../../lib/fetch";
 import AvatarList from "../avatar-list/AvatarList";
 import AvatarProfile from "../avatar-profile/AvatarProfile";
@@ -29,8 +29,8 @@ const closure = () => {
 export function HorizontalAvatar() {
   const [state, setState] = useState([]);
   const [error, setError] = useState();
-  const nameRef = React.useRef("");
-  const closureRef = React.useRef();
+  const nameRef = useRef("");
+  const closureRef = useRef();
 
   useEffect(
     () => {

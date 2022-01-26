@@ -1,4 +1,3 @@
-import React from "react";
 import "./IconBar.css";
 import Fav from "../icons/Fav";
 import Hearth from "../icons/Hearth";

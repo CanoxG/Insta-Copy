@@ -1,4 +1,3 @@
-import React from 'react';
 import './Tagline.css';
 
 export default function TagLine({ style = 'views' }) {

@@ -1,4 +1,3 @@
-import React from 'react';
 import './Contentimg.css'
 
 export function ContentPost({ src }) {

@@ -1,4 +1,3 @@
-import React from 'react';
 import './CommentLine.css';
 
 export default function CommenttLine({ children }) {

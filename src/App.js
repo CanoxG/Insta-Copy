@@ -1,10 +1,9 @@
-import React from "react";
 import "./App.css";
 import Navbar from "./components/navbar/Navbar";
 import Layout from "./components/layout/Layout";
 import ContentFlow from "./components/content-flow/ContentFlow";
 import { HorizontalAvatar } from "./components/horizontal-avatar-list/HorizontalAvatar";
-import Sidemenu from "./components/sidemenu/Sidemenu";
+import SideMenu from "./components/sidemenu/SideMenu";
 import { CenterPostList } from "./components/center-post-list/CenterPostList";
 
 function App() {
@@ -19,7 +18,7 @@ function App() {
           <HorizontalAvatar />
           <CenterPostList />
         </ContentFlow>
-        <Sidemenu />
+        <SideMenu />
       </Layout>
     </>
   );

@@ -1,4 +1,3 @@
-import React from "react";
 import "./Icon.css";
 import Avatar from '../../IMG_0031.JPG'
 import '../avatar/Avatar.css'

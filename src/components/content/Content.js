@@ -1,4 +1,3 @@
-import React from "react";
 import "./Content.css";
 import Header from "../content-header/Header";
 import Avatar from "../avatar/Avatar";

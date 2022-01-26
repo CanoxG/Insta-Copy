@@ -1,4 +1,3 @@
-import React from 'react';
 import './Comment.css';
 import CommentLine from '../comment-line/CommentLine';
 import TextArea from '../textarea/TextArea'

@@ -1,4 +1,3 @@
-import React from 'react';
 import './Scard.css';
 import Avatar from '../avatar/Avatar';
 import AvatarProfile from '../../IMG_0031.JPG'

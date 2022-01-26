@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function EllipsisIcon() {
     return (
         <svg aria-label="More options"  fill="#262626" height="16" role="img" viewBox="0 0 48 48" width="16">

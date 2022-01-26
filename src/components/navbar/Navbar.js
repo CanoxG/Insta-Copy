@@ -1,4 +1,3 @@
-import React from "react";
 import "./Navbar.css";
 import SearchInput from "../serach-input/Search";
 import Logo from "../logo/Logo";

@@ -1,4 +1,3 @@
-import React from 'react';
 import './AvatarProfile.css'
 import AvatarName from '../avatar-names/Name'
 import Avatar from '../../it-chapter-two-4883x3848-clown-pennywise-2019-4k-18540.JPG'
