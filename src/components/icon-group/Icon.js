@@ -1,5 +1,4 @@
 import "./Icon.css";
-import Avatar from '../../IMG_0031.JPG'
 import '../avatar/Avatar.css'
 
 export default function Icon() {
@@ -27,7 +26,7 @@ export default function Icon() {
                 </svg>
             </div>
             <div className='icon'>
-                <img className='avatar' src={Avatar} alt='Profile Avatar' />
+                <img className='avatar' src={'/img/me.jpg'} alt='Profile Avatar' />
             </div>
         </div>
     );

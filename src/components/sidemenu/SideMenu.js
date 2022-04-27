@@ -2,7 +2,7 @@ import "./Sidemenu.css";
 import AvatarCard from "../avatar-card/AvatarCard";
 import Button from "../buttoms/Buttom";
 import Suggestion from "../suggestions/Suggestion";
-import Scard from "../suggestion-card/Scard";
+import SuggestionCard from "../suggestion-card/SuggestionCard";
 
 export default function SideMenu({
   style = "suggestionsText",
@@ -19,15 +19,15 @@ export default function SideMenu({
         <Button>See all</Button>
       </Suggestion>
       <Suggestion>
-        <Scard />
+        <SuggestionCard />
         <Button color={color}>Follow</Button>
       </Suggestion>
       <Suggestion>
-        <Scard />
+        <SuggestionCard />
         <Button color={color}>Follow</Button>
       </Suggestion>
       <Suggestion>
-        <Scard />
+        <SuggestionCard />
         <Button color={color}>Follow</Button>
       </Suggestion>
     </div>

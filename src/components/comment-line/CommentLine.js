@@ -1,6 +1,6 @@
 import './CommentLine.css';
 
-export default function CommenttLine({ children }) {
+export default function CommentLine({ children }) {
 
     return (
         <div className='commentLine'>

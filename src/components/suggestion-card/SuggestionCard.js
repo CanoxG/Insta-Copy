@@ -1,13 +1,13 @@
 import './Scard.css';
 import Avatar from '../avatar/Avatar';
-import AvatarProfile from '../../IMG_0031.JPG'
 
 
-export default function Scard({ size = 'sm', src = AvatarProfile }) {
+
+export default function SuggestionCard({ size = 'sm' }) {
 
     return (
         <div className='sCard'>
-            <Avatar size={size} src={src} />
+            <Avatar size={size} src={'/img/me.jpg'} />
             <div className='sCardText'>
                 <div>cguven</div>
                 <div className='font'>Followed by tnguven</div>
